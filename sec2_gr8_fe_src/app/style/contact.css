@@ -1,0 +1,42 @@
+.contact-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.contact-grid {
+  margin-top: 20px;
+}
+
+.contact-card {
+  transition: 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-6px);
+}
+
+.contact-img {
+  border-radius: 10px 10px 0 0;
+}
+
+.contact-img:hover {
+  filter: brightness(1.08);
+}
+
+.contact-info {
+  padding: 20px;
+}
+
+.contact-name {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.contact-ig {
+  transition: 0.25s ease-in-out;
+}
+
+.contact-ig:hover {
+  opacity: 0.9;
+  transform: scale(1.07);
+}

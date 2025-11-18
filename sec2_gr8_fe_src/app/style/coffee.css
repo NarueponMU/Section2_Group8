@@ -1,0 +1,32 @@
+.coffee-card {
+  transition: 0.25s ease;
+}
+
+.coffee-card:hover {
+  transform: translateY(-3px);
+}
+
+.coffee-image {
+  border-radius: 12px 12px 0 0;
+  width: 100%;
+  height: auto;
+}
+
+/* Placeholder */
+.coffee-image-placeholder {
+  border-radius: 12px 12px 0 0;
+  font-size: 16px;
+}
+
+.coffee-info {
+  padding: 16px;
+}
+
+.detail {
+  line-height: 1.4;
+}
+
+.coffee-price {
+  font-size: 1.3rem;
+  font-weight: bold;
+}

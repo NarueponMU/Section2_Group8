@@ -1,0 +1,65 @@
+
+.product-main {
+  scroll-behavior: smooth;
+}
+
+.product-wrapper {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.product-search-box {
+  border: 1px solid #d1d1d1;
+}
+
+.product-input {
+  transition: 0.2s;
+}
+
+.product-input:focus {
+  outline: none;
+  box-shadow: 0 0 5px #ffa94d;
+}
+
+.product-search-btn {
+  transition: all 0.2s ease;
+}
+
+.product-list-box {
+  border: 1px solid #d1d1d1;
+}
+
+.product-table-header {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.product-row:hover {
+  background-color: #e5e5e5;
+}
+
+.product-img {
+  border: 2px solid #ddd;
+}
+
+.product-edit-btn:hover {
+  background-color: #cccccc !important;
+}
+
+.product-delete-btn:hover {
+  background-color: #ffd7d7 !important;
+}
+
+.product-add-btn {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.product-no-data {
+  font-style: italic;
+  opacity: 0.8;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

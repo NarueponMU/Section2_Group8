@@ -1,0 +1,28 @@
+.editproduct-page {
+  animation: fadeIn 0.35s ease-in-out;
+}
+
+.editproduct-card {
+  border: 2px solid #e5e5e5;
+}
+
+.editproduct-left {
+  border: 1px solid #d4d4d4;
+}
+
+.editproduct-right {
+  border-radius: 12px;
+}
+
+.editproduct-image {
+  border: 2px dashed #bdbdbd;
+}
+
+.editproduct-buttons button {
+  letter-spacing: 0.5px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

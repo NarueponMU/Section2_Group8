@@ -1,0 +1,63 @@
+
+.user-main {
+  scroll-behavior: smooth;
+}
+
+
+.user-wrapper {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.user-search-box {
+  border: 1px solid #d1d1d1;
+}
+
+.user-input {
+  transition: 0.2s;
+}
+.user-input:focus {
+  outline: none;
+  box-shadow: 0 0 5px #ffa94d;
+}
+
+.user-search-btn {
+  transition: all 0.2s ease;
+}
+
+.user-table-box {
+  border: 1px solid #d1d1d1;
+}
+
+.user-table-header {
+  font-weight: 600;
+}
+
+.user-row:hover {
+  background-color: #e8e8e8;
+}
+
+.user-edit-btn:hover {
+  background-color: #cfcfcf !important;
+}
+.user-delete-btn:hover {
+  background-color: #ffd6d6 !important;
+}
+.user-add-btn {
+  font-weight: bold;
+}
+
+.user-no-results {
+  font-style: italic;
+  opacity: 0.8;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

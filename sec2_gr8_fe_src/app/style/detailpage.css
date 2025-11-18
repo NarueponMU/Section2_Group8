@@ -1,0 +1,122 @@
+
+.detailpage-main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 12px;
+  padding-bottom: 12px;
+}
+
+.detailpage-card {
+  max-width: 72rem;
+  width: 100%;
+  background: #fff2d8;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  padding: 2rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 1024px) {
+  .detailpage-card {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Product Image Area */
+.detailpage-image-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f3f4f6;
+  border-radius: 1rem;
+  overflow: hidden;
+  height: 24rem;
+}
+
+@media (min-width: 1024px) {
+  .detailpage-image-box {
+    height: auto;
+  }
+}
+
+.detailpage-fav-btn {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 2rem;
+  color: #ef4444;
+  z-index: 20;
+  transition: transform 0.2s;
+}
+
+.detailpage-fav-btn:hover {
+  transform: scale(1.15);
+}
+
+.detailpage-buy-btn {
+  width: 100%;
+  background: #111827;
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  font-size: 1.125rem;
+  transition: background 0.2s;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.detailpage-buy-btn:hover {
+  background: #1f2937;
+}
+
+.detailpage-size-btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.75rem;
+  border: 2px solid #d1d5db;
+  background: white;
+  transition: 0.2s;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.detailpage-size-btn:hover {
+  border-color: #9ca3af;
+}
+
+.detailpage-size-active {
+  background: #111827;
+  color: white;
+  border-color: #111827;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+.detailpage-qty-box {
+  display: flex;
+  align-items: center;
+  border: 2px solid #d1d5db;
+  border-radius: 0.75rem;
+  background: white;
+}
+
+.detailpage-qty-btn {
+  padding: 0.75rem 1rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.detailpage-qty-btn:hover {
+  background: #f3f4f6;
+}
+
+.detailpage-qty-display {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  min-width: 60px;
+  text-align: center;
+}

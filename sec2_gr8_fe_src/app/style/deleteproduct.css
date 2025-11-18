@@ -1,0 +1,37 @@
+.deleteproduct-page {
+  animation: fadeIn 0.35s ease-in-out;
+}
+
+.deleteproduct-main {
+  padding-bottom: 40px;
+}
+
+.deleteproduct-header h1,
+.deleteproduct-header h2 {
+  letter-spacing: 1px;
+}
+
+.deleteproduct-card {
+  border: 2px solid #e5e5e5;
+}
+
+.deleteproduct-form {
+  border: 1px solid #d4d4d4;
+}
+
+.deleteproduct-image-area {
+  border-radius: 12px;
+}
+
+.deleteproduct-image-preview {
+  border: 2px dashed #bdbdbd;
+}
+
+.deleteproduct-buttons button {
+  letter-spacing: 0.5px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

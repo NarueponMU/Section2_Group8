@@ -1,0 +1,34 @@
+.addproduct-page {
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.addproduct-section {
+  padding-bottom: 40px;
+}
+
+.addproduct-header h1,
+.addproduct-header h2 {
+  letter-spacing: 1px;
+}
+
+.addproduct-container {
+  border: 2px solid #e5e5e5;
+}
+
+.addproduct-form {
+  border: 1px solid #d4d4d4;
+}
+
+.addproduct-image-area {
+  border-radius: 12px;
+}
+
+.addproduct-image-preview {
+  border: 2px dashed #bdbdbd;
+}
+
+/* Simple Fade Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
