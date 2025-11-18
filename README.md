@@ -25,8 +25,8 @@ Note
 ### 3. ทำการเปิด Terminal 1 แล้ว cd ไปที่ sec2_gr8_fe_src และ Terminal 2 แล้ว cd ไปที่ sec2_gr8_ws_src
 ### 4. ทำการติดตั้ง module ทั้งหมดที่ระบุในไฟล์ package.json โดยพิม **npm install** ในทั้ง 2 Terminal 
 
-### 5. สร้างไฟล์ .env.local ให้ในไฟล์ มีรายละเอียดดังนัี้
-NEXT_PUBLIC_API_URL=http://localhost:5050  
+### 5. สร้างไฟล์ .env.local ให้ในไฟล์ มีรายละเอียดดังนี้
+NEXT_PUBLIC_API_URL=http://localhost:5050
 NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=AIzaSyD-EXAMPLE-KEY-1234567890
 
 ### 6. Run Terminal

@@ -28,10 +28,11 @@ CREATE TABLE User_Account (
 
 INSERT INTO User_Account VALUES
 ('U001','Nattakit','$2b$10$6u9L9.XMniX.j9FGWi1KhemB0w2Xw5kL3zzRkwJ/HNbanjZSGmTOO','2025-10-29','2000-01-01','Nattakit','Kiewchaum','Bangkok','0123456789','CUSTOMER',1,NULL),
-('U002','Naruepon','$2b$10$wF1mvE/VqRjVYLRNvKcW/OHsK3dwuO3xZPNZ54qkS3VvOjSNpP9QC','2025-10-29','1995-01-01','Naruepon','Santipapchai','Bangkok','0987654321','CUSTOMER',1,NULL),
+('U002','Naruepon','$2b$10$AC23zNTzFuLTNnnNh.iv6uVHbVtxGE8NumsAsdzG55kRZQaq9j1/a','2025-10-29','1995-01-01','Naruepon','Santipapchai','Bangkok','0987654321','CUSTOMER',1,NULL),
 ('U003','Thanamet','$2b$10$ZCrpYv.0GOkmUfcbgBNolORd65N0fJJ7y8psZuJRj3rkMR0obAgc.','2025-10-29','1995-01-01','Thanamet','Datharach','Bangkok','0987654321','ADMIN',1,NULL),
 ('U004','Babu','$2b$10$LN9HufypcmeybL90gYStX.SQEx5UbZeJwkK7YJXkL9IU0Hx.pt5Ye','2025-10-29','1995-01-01','Phumet','Babu','Bangkok','0987654321','CUSTOMER',1,NULL),
-('U005','admin','$2b$10$08o847NUWnA8XR9KqAvTHeJfEZ5pGH2zWoQCH53kacqsahyJNY9e','2025-11-06','1990-01-01','System','Administrator','Head Office','0000000000','ADMIN',1,NULL);
+('U005','admin','$2b$10$ZZeJs7HWHJFAsyXDlKkqvebtHKAeJMCK22TXWLXae4fbkWYIMYfwS','2025-11-06','1990-01-01','System','Administrator','Head Office','0000000000','ADMIN',1,NULL);
+
 
 -- ===========================================================
 -- TABLE: Login
