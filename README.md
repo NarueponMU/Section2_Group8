@@ -38,6 +38,7 @@ backend จะรัน ที่ port 5050
 หลังจากนั้นให้ไปที่ไฟล์ server.js จากเดิมคือ import bcrypt from "bcrypt";  เป็น import bcrypt from "bcryptjs"; หลังจากนั้นให้ npm start เพื่อ start server`
 
 ### 6.API and Webservice testing Guide# TEST-COFF
+
 // method: POST
 // URL: http://localhost:5050/product
 // Body (raw JSON)
@@ -52,10 +53,10 @@ backend จะรัน ที่ port 5050
   "Image_URL": "https://i.pinimg.com/736x/01/f9/72/01f9728512f92813ebbac859baf4fe12.jpg"
 }
 
-
 // method: PUT
 // http://localhost:5050/product/16
 // Body:(raw JSON)
+```json
 {
 "Product_Name": "Kenya Blend",
  "Product_Source": "Kenya",
