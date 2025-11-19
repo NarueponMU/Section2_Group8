@@ -41,8 +41,7 @@ backend จะรัน ที่ port 5050
 // method: POST  
 // URL: http://localhost:5050/product  
 // Body (raw JSON)
-
-\`\`\`json
+\`\`\`
 {
   "Product_Name": "Kenya Blend",
   "Product_Source": "Kenya",
@@ -57,8 +56,7 @@ backend จะรัน ที่ port 5050
 // method: PUT  
 // URL: http://localhost:5050/product/16  
 // Body (raw JSON)
-
-\`\`\`json
+\`\`\`
 {
   "Product_Name": "Kenya Blend",
   "Product_Source": "Kenya",
