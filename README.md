@@ -37,13 +37,12 @@ backend จะรัน ที่ port 5050
 ให้ npm uninstall bcrypt แล้วให้ npm install bcryptjs. 
 หลังจากนั้นให้ไปที่ไฟล์ server.js จากเดิมคือ import bcrypt from "bcrypt";  เป็น import bcrypt from "bcryptjs"; หลังจากนั้นให้ npm start เพื่อ start server`
 
-### 6.API and Webservice testing Guide# TEST-COFF
-
-// method: POST 
-// URL: http://localhost:5050/product 
+### 6.API and Webservice testing Guide #POSTMAN
+// method: POST  
+// URL: http://localhost:5050/product  
 // Body (raw JSON)
 
-```json
+\`\`\`json
 {
   "Product_Name": "Kenya Blend",
   "Product_Source": "Kenya",
@@ -53,12 +52,13 @@ backend จะรัน ที่ port 5050
   "Price_per_kg": 500,
   "Image_URL": "https://i.pinimg.com/736x/01/f9/72/01f9728512f92813ebbac859baf4fe12.jpg"
 }
+\`\`\`
 
-// method: PUT
-// URL: http://localhost:5050/product/16
+// method: PUT  
+// URL: http://localhost:5050/product/16  
 // Body (raw JSON)
 
-```json
+\`\`\`json
 {
   "Product_Name": "Kenya Blend",
   "Product_Source": "Kenya",
@@ -68,3 +68,5 @@ backend จะรัน ที่ port 5050
   "Price_per_kg": 2000,
   "Image_URL": "https://i.pinimg.com/736x/01/f9/72/01f9728512f92813ebbac859baf4fe12.jpg"
 }
+\`\`\`
+
