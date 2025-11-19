@@ -39,9 +39,10 @@ backend จะรัน ที่ port 5050
 
 ### 6.API and Webservice testing Guide# TEST-COFF
 
-// method: POST
-// URL: http://localhost:5050/product
+// method: POST 
+// URL: http://localhost:5050/product 
 // Body (raw JSON)
+
 ```json
 {
   "Product_Name": "Kenya Blend",
@@ -54,15 +55,16 @@ backend จะรัน ที่ port 5050
 }
 
 // method: PUT
-// http://localhost:5050/product/16
-// Body:(raw JSON)
+// URL: http://localhost:5050/product/16
+// Body (raw JSON)
+
 ```json
 {
-"Product_Name": "Kenya Blend",
- "Product_Source": "Kenya",
- "Roast_Level": "L",
- "Size": "1kg",
- "Taste_Note": "Sweet and smooth",
- "Price_per_kg": 2000,
-"Image_URL": "https://i.pinimg.com/736x/01/f9/72/01f9728512f92813ebbac859baf4fe12.jpg"
+  "Product_Name": "Kenya Blend",
+  "Product_Source": "Kenya",
+  "Roast_Level": "L",
+  "Size": "1kg",
+  "Taste_Note": "Sweet and smooth",
+  "Price_per_kg": 2000,
+  "Image_URL": "https://i.pinimg.com/736x/01/f9/72/01f9728512f92813ebbac859baf4fe12.jpg"
 }
