@@ -25,11 +25,7 @@ Note
 ### 3. ทำการเปิด Terminal 1 แล้ว cd ไปที่ sec2_gr8_fe_src และ Terminal 2 แล้ว cd ไปที่ sec2_gr8_ws_src
 ### 4. ทำการติดตั้ง module ทั้งหมดที่ระบุในไฟล์ package.json โดยพิม **npm install** ในทั้ง 2 Terminal 
 
-### 5. สร้างไฟล์ .env.local ให้ในไฟล์ มีรายละเอียดดังนี้
-NEXT_PUBLIC_API_URL=http://localhost:5050
-NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=AIzaSyD-EXAMPLE-KEY-1234567890
-
-### 6. Run Terminal
+### 5. Run Terminal
 - เปิด terminal ของ sec2_gr8_fe_src จากนั้น run คำสั่ง **npm run dev** เพื่อ start frontend. 
 frontend จะรัน ที่ port 3000 http://localhost:3000/
 - เปิด terminal ของ sec2_gr8_ws_src จากนั้น run คำสั่ง **npm start** เพื่อ start backend. 
@@ -45,15 +41,17 @@ backend จะรัน ที่ port 5050
 // method: POST
 // URL: http://localhost:5050/product
 // Body (raw JSON)
-  {
-   "Product_Name": "Kenya Blend",
-   "Product_Source": "Kenya",
-   "Roast_Level": "D",
-   "Size": "500g",
-   "Taste_Note": "Goodtaste",
-   "Price_per_kg": 500,
-   "Image_URL": "https://i.pinimg.com/736x/01/f9/72/01f9728512f92813ebbac859baf4fe12.jpg"
- }
+```json
+{
+  "Product_Name": "Kenya Blend",
+  "Product_Source": "Kenya",
+  "Roast_Level": "D",
+  "Size": "500g",
+  "Taste_Note": "Goodtaste",
+  "Price_per_kg": 500,
+  "Image_URL": "https://i.pinimg.com/736x/01/f9/72/01f9728512f92813ebbac859baf4fe12.jpg"
+}
+
 
 // method: PUT
 // http://localhost:5050/product/16
