@@ -38,29 +38,29 @@ backend จะรัน ที่ port 5050
 หลังจากนั้นให้ไปที่ไฟล์ server.js จากเดิมคือ import bcrypt from "bcrypt";  เป็น import bcrypt from "bcryptjs"; หลังจากนั้นให้ npm start เพื่อ start server`
 
 ### 7.API and Webservice testing Guide #POSTMAN
-// method: POST
-// URL: http://localhost:5050/product
-// Body (raw JSON)
-{
-  "Product_Name": "Kenya Blend",
-  "Product_Source": "Kenya",
-  "Roast_Level": "D",
-  "Size": "500g",
-  "Taste_Note": "Goodtaste",
-  "Price_per_kg": 500,
-  "Image_URL": "https://i.pinimg.com/736x/01/f9/72/01f9728512f92813ebbac859baf4fe12.jpg"
-  }
+// method: POST  
+// URL: http://localhost:5050/product  
+// Body (raw JSON)  
+{  
+  "Product_Name": "Kenya Blend",  
+  "Product_Source": "Kenya",  
+  "Roast_Level": "D",  
+  "Size": "500g",  
+  "Taste_Note": "Goodtaste",  
+  "Price_per_kg": 500,  
+  "Image_URL": "https://i.pinimg.com/736x/01/f9/72/01f9728512f92813ebbac859baf4fe12.jpg"  
+  }  
   
-  // method: PUT
-  // URL: http://localhost:5050/product/16
-  // Body (raw JSON)
-  {"Product_Name": "Kenya Blend",
-  "Product_Source": "Kenya",
-  "Roast_Level": "L",
-  "Size": "1kg",
-  "Taste_Note": "Sweet and smooth",
-  "Price_per_kg": 2000,
-  "Image_URL": "https://i.pinimg.com/736x/01/f9/72/01f9728512f92813ebbac859baf4fe12.jpg"
-  }
+  // method: PUT  
+  // URL: http://localhost:5050/product/16  
+  // Body (raw JSON)  
+  {"Product_Name": "Kenya Blend",  
+  "Product_Source": "Kenya",  
+  "Roast_Level": "L",  
+  "Size": "1kg",  
+  "Taste_Note": "Sweet and smooth",  
+  "Price_per_kg": 2000,  
+  "Image_URL": "https://i.pinimg.com/736x/01/f9/72/01f9728512f92813ebbac859baf4fe12.jpg"  
+  }  
 
 
