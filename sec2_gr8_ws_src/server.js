@@ -418,14 +418,16 @@ app.post('/product', async (req, res) => {
 // URL: http://localhost:5050/product
 // Body (raw JSON)
 // {
-//   "Product_Name": "Test Coffee",
-//   "Product_Source": "Brazil",
-//   "Roast_Level": "M",
-//   "Size": "500g",
-//   "Taste_Note": "Sweet and smooth",
-//   "Price_per_kg": 500,
-//   "Image_URL": null
+// "Product_Name": "Kenya Blend",
+// "Product_Source": "Kenya",
+// "Roast_Level": "D",
+// "Size": "500g",
+// "Taste_Note": "Goodtaste",
+// "Price_per_kg": 500,
+// "Image_URL": "https://i.pinimg.com/736x/01/f9/72/01f9728512f92813ebbac859baf4fe12.jpg"
 // }
+
+
 
 // ==========================
 // Update Product
@@ -433,7 +435,7 @@ app.post('/product', async (req, res) => {
 
 app.put('/product/:id', async (req, res) => {
   const id = req.params.id;
-  const p = req.body;  // ไม่ต้อง p.product แล้ว
+  const p = req.body; 
 
   const sql = `
     UPDATE Product 
@@ -465,16 +467,15 @@ app.put('/product/:id', async (req, res) => {
 });
 
 // method: PUT
-// http://localhost:5050/product/17
-// Body:
-// {
-//   "Product_Name": "Caramel Breeze",
-//   "Product_Source": "Colombia",
-//   "Roast_Level": "L",
-//   "Size": "250g",
-//   "Taste_Note": "Light and sweet with caramel aroma.",
-//   "Price_per_kg": 820,
-//   "Image_URL": null
+// URL: http://localhost:5050/product/16
+// Body (raw JSON)
+// {"Product_Name": "Kenya Blend",
+// "Product_Source": "Kenya",
+// "Roast_Level": "L",
+// "Size": "1kg",
+// "Taste_Note": "Sweet and smooth",
+// "Price_per_kg": 2000,
+// "Image_URL": "https://i.pinimg.com/736x/01/f9/72/01f9728512f92813ebbac859baf4fe12.jpg"
 // }
 
 // ==========================

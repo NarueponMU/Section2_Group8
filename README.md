@@ -1,6 +1,6 @@
 # DTN Coffee Shop Web Application Project
 ## Project Setup
-### 1. Clone Project Repository ลงใน Directory ที่ต้องการ หรือ download zip ลงให้เครื่อง
+### 1. Clone Project Repository ลงใน Directory ที่ต้องการ หรือ Download zip ลงในเครื่อง
 
 ### 2. ตั้งค่า MySQL
 - Import file **sec2_gr8_database.sql** ลง MySQL Workbench แล้ว execute ทั้งหมด
