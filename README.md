@@ -21,11 +21,11 @@ Note
 
 `Note ถ้ากรณี execute แล้ว table record ล่างสุดมี null ต้อง FLUSH TABLE; ก่อน`
 
-### 3. ทำการเปิด Folder Section2_Group8
-### 3. ทำการเปิด Terminal 1 แล้ว cd ไปที่ sec2_gr8_fe_src และ Terminal 2 แล้ว cd ไปที่ sec2_gr8_ws_src
-### 4. ทำการติดตั้ง module ทั้งหมดที่ระบุในไฟล์ package.json โดยพิม **npm install** ในทั้ง 2 Terminal 
+### 3. ทำการเปิด VisualCode แล้วเลือก Folder Section2_Group8
+### 4. ทำการเปิด Terminal 1 แล้ว cd ไปที่ sec2_gr8_fe_src และ Terminal 2 แล้ว cd ไปที่ sec2_gr8_ws_src
+### 5. ทำการติดตั้ง module ทั้งหมดที่ระบุในไฟล์ package.json โดยพิม **npm install** ในทั้ง 2 Terminal 
 
-### 5. Run Terminal
+### 6. Run Terminal
 - เปิด terminal ของ sec2_gr8_fe_src จากนั้น run คำสั่ง **npm run dev** เพื่อ start frontend. 
 frontend จะรัน ที่ port 3000 http://localhost:3000/
 - เปิด terminal ของ sec2_gr8_ws_src จากนั้น run คำสั่ง **npm start** เพื่อ start backend. 
@@ -37,7 +37,7 @@ backend จะรัน ที่ port 5050
 ให้ npm uninstall bcrypt แล้วให้ npm install bcryptjs. 
 หลังจากนั้นให้ไปที่ไฟล์ server.js จากเดิมคือ import bcrypt from "bcrypt";  เป็น import bcrypt from "bcryptjs"; หลังจากนั้นให้ npm start เพื่อ start server`
 
-### 6.API and Webservice testing Guide #POSTMAN
+### 7.API and Webservice testing Guide #POSTMAN
 // method: POST  
 // URL: http://localhost:5050/product  
 // Body (raw JSON)
