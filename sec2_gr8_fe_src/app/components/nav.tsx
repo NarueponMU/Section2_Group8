@@ -36,7 +36,7 @@ export default function Navbar() {
 
 
   return (
-    <div
+    <nav
       className="flex justify-between list-none  text-black sticky top-0 z-50 bg-[#fff2d8]"
     >
       {/* Desktop menu */}
@@ -84,6 +84,6 @@ export default function Navbar() {
           </li>
         )}
       </div>
-    </div>
+    </nav>
   );
 }

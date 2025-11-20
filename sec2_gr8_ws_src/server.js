@@ -99,7 +99,7 @@ app.post("/api/login", async (req, res) => {
 });
 
 // ==========================
-// COFFEE QUOTE
+// COFFEE QUOTE (Public API)
 // ==========================
 app.get("/api/coffee-quote", async (req, res) => {
   const coffeeList = [
